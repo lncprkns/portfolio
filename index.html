@@ -1,0 +1,225 @@
+<!-- 
+  Credit:
+  My portfolio was created as part of Scrimba's Front End Developer Career
+  Path boot camp. The template used "was designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like."
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
+
+  <title>
+    Lance Perkins | A Front-End Developer based in Illinois
+  </title>
+
+  <meta name="description" content="I am a recent graduate looking to become a front end web developer.">
+  <meta name="keywords" content="Lance Perkins, HTML, CSS, JavaScript, React, API" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Lance Perkins</span>
+        </h1>
+        <p>A Front-End Developer based in Illinois with a passion for building things to solve problems. Experience with HTML, CSS, JavaScript, and React.</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Disc Golf Club Website</h3>
+              <p>
+                A website built for the Freeport Disc Golf Club of Freeport, IL. 
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://fdgc.netlify.app/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/lncprkns/fdgcv1" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/fdgcimg.JPG" class="work__image" alt="Freeport Disc Golf Club website" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Personal Dashboard</h3>
+              <p>
+                My spouse asked me to make them a personal dashboard to use each morning on their phone.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>RESTful API</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://hellotomylove.netlify.app/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/lncprkns/kpsite">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/hellomyloveimg.JPG" class="work__image" alt="Dashboard for my spouse" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Author/Quote Retriever</h3>
+              <p>
+               The mid-term project for Back End Development course was creating a basic Create, Read, Update, and Delete (CRUD) application using PHP and the Model-View-Controller (MVC) architectural pattern. The project connected to a database manipulated via PHP and API.
+              </p>
+              <ul class="work__list">
+                <li>PHP</li>
+                <li>Model-View-Controller Architecture</li>
+                <li>API</li>
+              </ul>
+
+              <div class="work__links">
+                <p>Project is no longer functional as the database is no longer available, but the source code can still be viewed.</p>
+                <a href="https://github.com/lncprkns/midterm-project">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/phpproject.JPG" class="work__image" alt="Code for a PHP Project" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+           <p>
+             I am a front end web developer that enjoys creating solutions that solve problems! I have worked the most with HTML, CSS, and JavaScript, but I have experience learning PHP, Python, and React, and I am always excited to jump in to learning something new!
+            </p>
+            <p>I hold bachelor's degrees in both web development and accounting, and I have six years professional experience working at a nonprofit as a program coordinator and program manager. I am continually looking to improve my skills, so to go along with my web development degree, I have completed the freeCodeCamp.com Responsive Web Design certificaton and am near completion of Scrimba's Front End Developer Career Path boot camp.</p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/lance.jpg" alt="Lance Perkins" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          The best way to contact me is via email. Whether it is for an opportunity
+          to work together, or you just want to have a chat, please feel free to reach
+          out and say hello!
+        </p>
+        <a href="mailto:lance.c.perkins@gmail.com" class="btn">Reach out to me...</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/lncprkns" title="Link to Twitter Profile">
+            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/lncprkns" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/lncprkns/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
+      </p>
+      
+       
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
