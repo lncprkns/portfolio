@@ -17,7 +17,7 @@ Other projects:
 
 [Freeport Disc Golf Club website](https://fdgc.netlify.app/) - A website I created for the Freeport Disc Golf Club.
 
-[Dashboard for my spouse](https://hellotomylove.netlify.app/) - A personal dashboard I created for my spouse.
+[Dashboard for my spouse](https://hellotomylove.netlify.app/) - A personal dashboard I created for my spouse. This was created with the idea that it would only be viewed on a phone.
 
 
 ## 🛠 Skills
