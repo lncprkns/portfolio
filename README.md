@@ -1,10 +1,6 @@
-
 # My Portfolio
 
 This is my portfolio to showcase my projects, provide some insite into who I am, and to offer a way to contact me. This portfolio was created as part of Scrimba's Front End Developer Career Path boot camp. A template was used for this portfolio, and all credit is provided inside the index.html file.
-
-
-
 
 
 ## 🚀 About Me
@@ -15,16 +11,16 @@ Previously, I earned a bachelor's degree in Business Administration with a focus
 
 ## 🔗 Links
 
-[![linkedin]](https://www.linkedin.com/in/lncprkns/)
+[My LinkedIn](https://www.linkedin.com/in/lncprkns/)
 
 Other projects:
 
-[![Freeport Disc Golf Club website]](https://fdgc.netlify.app/) - A website I created for the Freeport Disc Golf Club.
+[Freeport Disc Golf Club website](https://fdgc.netlify.app/) - A website I created for the Freeport Disc Golf Club.
 
-[![Dashboard for my spouse]](https://hellotomylove.netlify.app/) - A personal dashboard I created for my spouse.
-
+[Dashboard for my spouse](https://hellotomylove.netlify.app/) - A personal dashboard I created for my spouse.
 
 
 ## 🛠 Skills
 
 I have learned, and continue to learn, HTML, CSS, and JavaScript and have completed coursework using React, Python, SQL, and PHP. I believe my best skills are an enthusiasm for learning and problem solving. I love figuring out how to best solve a problem, and if it requires learning something to do it, then even more fun!
+
